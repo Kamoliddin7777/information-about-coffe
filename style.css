@@ -24,7 +24,7 @@ body{
 .body{
     display: flex;
     flex-direction: column;
-    row-gap: 120px;
+    row-gap: 120px; 
 }
 
 .coffe{

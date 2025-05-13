@@ -110,19 +110,24 @@ a {
     text-decoration: none; 
     color: inherit; 
 }
-@media(max-width:660px){
-       .main{ display: flex;
+@media(max-width:500px){
+    .main {
+        display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-        font-size: 20px;
-
-       }
-       .infor{
-        font-size: 20px;
-       }
-       img{
-        height: 500px;
-        width: 300px;
-       }
+        font-size: 14px;
     }
+    .infor {
+        display: flex; 
+        flex-direction: row; 
+        align-items: flex-start; 
+        font-size: 15px;
+        gap: 10px;
+    }
+    .infor img {
+        height: 200px;
+        width: auto;
+        object-fit: contain; 
+    }
+}
     

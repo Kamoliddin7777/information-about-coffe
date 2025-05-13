@@ -122,7 +122,7 @@ a {
         flex-direction: row; 
         align-items: flex-start; 
         font-size: 15px;
-        gap: 10px;
+        gap: 5px;
     }
     .infor img {
         height: 200px;
@@ -130,4 +130,5 @@ a {
         object-fit: contain; 
     }
 }
+
     

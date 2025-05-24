@@ -108,7 +108,7 @@ a {
     color: inherit; 
 }
 
-@media (max-width:540px){
+@media (max-width:430px){
     body{
         font-size: 12px;
     }

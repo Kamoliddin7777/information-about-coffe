@@ -24,7 +24,7 @@ body{
 .body{
     display: flex;
     flex-direction: column;
-    row-gap: 120px; 
+    row-gap: 120px;
 }
 
 .coffe{
@@ -66,9 +66,6 @@ body{
     align-items: center;
     gap: 130px;
 }
-.lave{
-    margin-right: 90px;
-}
 
 
 @keyframes tar{
@@ -95,7 +92,7 @@ body{
 img{
     opacity: 0;
     display: flex;
-    align-self: center;
+    align-self: flex-start;
     animation: about 2s ease-in-out forwards;
     margin-top: 20px;
 
@@ -110,25 +107,33 @@ a {
     text-decoration: none; 
     color: inherit; 
 }
-@media(max-width:500px){
-    .main {
+
+@media (max-width:540px){
+    body{
+        font-size: 12px;
+    }
+    .main{
         display: flex;
         justify-content: flex-start;
-        align-items: flex-end;
         font-size: 14px;
     }
-    .infor {
-        display: flex; 
-        flex-direction: row; 
-        align-items: flex-start; 
+    .infor{
+        gap: 20px;
         font-size: 15px;
-        gap: 5px;
     }
-    .infor img {
+    img{
         height: 200px;
-        width: auto;
-        object-fit: contain; 
+        width: 200px;
+    }
+    .late{
+        margin-right: 20px;
+    }
+    .flet{
+        margin-right: 20px;
+    }
+    .lave{
+        margin-right: 20px;
+       
     }
 }
-
     

@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(242, 203, 132);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    z-index: 1;
+    position: fixed;
+    width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 25px;
+    gap: 15px;
+    height: 60px;
+    color: rgb(242, 203, 132);
+    background-color: rgb(152, 58, 58);
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+}
+
+.coffe{
+    opacity: 0;
+
+    animation: coffe 1s ease-in-out forwards;
+    margin-right: 8px;
+    cursor: pointer;
+    border: solid none;
+    height: 60px;
+    border-radius: 10px;
+  
+}
+.coffe:hover{
+    background-color: rgb(128, 54, 54);
+   transform: translateY(-5px);    
+}
+@keyframes coffe{
+    0%{   
+         opacity: 0;
+        transform: translatex(-700px) ; 
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.infor{
+    opacity: 0;
+    animation: tar 2.5s ease-in-out forwards;
+    margin-top: 10px;
+    color: rgb(152, 58, 58);
+    font-size: 25px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 130px;
+}
+
+
+@keyframes tar{
+    0%{   
+       transform: translatex(-1000px) ; 
+       
+   }
+   100%{opacity: 1;
+       transform: translateX(0px);
+   }
+}
+
+
+@keyframes about{
+        0%{
+    transform: translateX(1500px);
+    }
+        100%{opacity: 1;
+        transform: translatex(0px);
+
+    }
+}
+
+img{
+    opacity: 0;
+    display: flex;
+    align-self: flex-start;
+    animation: about 2s ease-in-out forwards;
+    margin-top: 20px;
+
+}
+.late{
+    margin-right: 80px;
+}
+.flet{
+    margin-right: 50px;
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+@media only screen and (max-width: 430px){
+    body{
+        font-size: 12px;
+    }
+    .main{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+    }
+    .infor{
+        gap: 20px;
+        font-size: 15px;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    .late{
+        margin-right: 20px;
+    }
+    .flet{
+        margin-right: 20px;
+    }
+    .lave{
+        margin-right: 20px;
+       
+    }
+}
+    
+
+    

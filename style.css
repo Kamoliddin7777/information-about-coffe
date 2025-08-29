@@ -115,7 +115,7 @@ a {
     .main{
         display: flex;
         justify-content: flex-start;
-        font-size: 14px;
+        font-size: 8px;
     }
     .infor{
         gap: 20px;
@@ -137,3 +137,4 @@ a {
     }
 }
     
+
